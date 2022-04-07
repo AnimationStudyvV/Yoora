@@ -85,11 +85,11 @@ export const NavItem = styled.li`
   }
 
   &.active ${NavIcon} {
-    transform: translateY(-20px);
+    transform: translateY(-17px);
   }
 
   &.active ${NavText} {
     opacity: 1;
-    transform: translateY(0px);
+    transform: translateY(-3px);
   }
 `;
