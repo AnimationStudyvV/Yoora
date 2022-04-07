@@ -7,12 +7,13 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
-import { NavBox, NavIcon, NavItem, NavText } from "./styles";
+import { Highlight, NavBox, NavIcon, NavItem, NavText } from "./styles";
 const Navbar: React.FC = () => {
   return (
     <>
       <NavBox>
-        <NavItem>
+        <Highlight />
+        <NavItem className="active">
           <NavIcon>
             <FontAwesomeIcon icon={faHouseChimney} />
           </NavIcon>
