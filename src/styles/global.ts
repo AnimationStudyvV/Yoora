@@ -11,10 +11,7 @@ export default createGlobalStyle`
   #root {
     margin: 0 auto;
     display: flex;
-
-    @media screen and (max-width: 820px) {
-      flex-direction: column;
-    }
+    flex-direction: column;
   }
 
   a {
