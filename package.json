@@ -26,7 +26,15 @@
     "extends": [
       "react-app",
       "react-app/jest"
-    ]
+    ],
+    "plugins": [
+      "simple-import-sort",
+      "@typescript-eslint"
+    ],
+    "rules": {
+      "simple-import-sort/imports": "error",
+      "simple-import-sort/exports": "error"
+    }
   },
   "browserslist": {
     "production": [
@@ -39,5 +47,9 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@types/styled-components": "^5.1.24",
+    "eslint-plugin-simple-import-sort": "^7.0.0"
   }
 }
