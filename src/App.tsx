@@ -1,14 +1,19 @@
-import "./App.css";
+import { Route, Routes } from "react-router-dom";
+import { BrowserRouter as Router } from "react-router-dom";
 
-import React from "react";
-
-import Navbar from "./components/Navbar";
+import NavbarPage from "./pages/NavBarPage";
+import GlobalStyle from "./styles/global";
 
 function App() {
   return (
-    <div className="App">
-      <Navbar></Navbar>
-    </div>
+    <>
+      <Router>
+        <GlobalStyle />
+        <Routes>
+          <Route path="/" element={<NavbarPage />}></Route>
+        </Routes>
+      </Router>
+    </>
   );
 }
 
