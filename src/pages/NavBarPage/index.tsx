@@ -1,12 +1,13 @@
-// import { Container } from './styles';
-
 import Navbar from "../../components/Navbar";
+import { Container, Navigation } from "./styles";
 
 const NavbarPage: React.FC = () => {
   return (
-    <>
-      <Navbar />
-    </>
+    <Container>
+      <Navigation>
+        <Navbar />
+      </Navigation>
+    </Container>
   );
 };
 

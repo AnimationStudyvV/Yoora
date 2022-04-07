@@ -13,44 +13,34 @@ const Navbar: React.FC = () => {
     <>
       <NavBox>
         <NavItem>
-          <a href="/">
-            <NavIcon>
-              <FontAwesomeIcon icon={faHouseChimney} />
-            </NavIcon>
-            <NavText>Home</NavText>
-          </a>
+          <NavIcon>
+            <FontAwesomeIcon icon={faHouseChimney} />
+          </NavIcon>
+          <NavText>Home</NavText>
         </NavItem>
         <NavItem>
-          <a href="/">
-            <NavIcon>
-              <FontAwesomeIcon icon={faUser} />
-            </NavIcon>
-            <NavText>Profile</NavText>
-          </a>
+          <NavIcon>
+            <FontAwesomeIcon icon={faUser} />
+          </NavIcon>
+          <NavText>Profile</NavText>
         </NavItem>
         <NavItem>
-          <a href="/">
-            <NavIcon>
-              <FontAwesomeIcon icon={faComment} />
-            </NavIcon>
-            <NavText>Message</NavText>
-          </a>
+          <NavIcon>
+            <FontAwesomeIcon icon={faComment} />
+          </NavIcon>
+          <NavText>Message</NavText>
         </NavItem>
         <NavItem>
-          <a href="/">
-            <NavIcon>
-              <FontAwesomeIcon icon={faCamera} />
-            </NavIcon>
-            <NavText>Photos</NavText>
-          </a>
+          <NavIcon>
+            <FontAwesomeIcon icon={faCamera} />
+          </NavIcon>
+          <NavText>Photos</NavText>
         </NavItem>
         <NavItem>
-          <a href="/">
-            <NavIcon>
-              <FontAwesomeIcon icon={faGear} />
-            </NavIcon>
-            <NavText>Settings</NavText>
-          </a>
+          <NavIcon>
+            <FontAwesomeIcon icon={faGear} />
+          </NavIcon>
+          <NavText>Settings</NavText>
         </NavItem>
       </NavBox>
     </>
