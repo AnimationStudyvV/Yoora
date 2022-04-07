@@ -11,7 +11,7 @@ export const NavBox = styled.ul`
 `;
 
 export const NavIcon = styled.span`
-  transform: translateY(0px);
+  transform: translateY(10px);
   transition: 0.5s;
   font-size: 1.2em;
 `;
