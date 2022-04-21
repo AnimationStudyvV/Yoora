@@ -12,7 +12,7 @@ const Navigation: React.FC = () => {
             <Link to="/">Navbar</Link>
           </NavLink>
           <NavLink>
-            <Link to="/effect">Effect</Link>
+            <Link to="/clock">FlipClock</Link>
           </NavLink>
         </Nav>
       </Container>
