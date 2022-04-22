@@ -50,6 +50,9 @@ export const Digit = styled.div`
 
     bottom: 0;
     align-items: flex-start;
+
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
   }
 
   &::after {
@@ -57,6 +60,9 @@ export const Digit = styled.div`
 
     top: 0;
     align-items: flex-end;
+
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
   }
 `;
 
@@ -130,4 +136,9 @@ export const CardBackFace = styled.div`
     border-top-left-radius: 0;
     border-top-right-radius: 0;
   }
+`;
+
+export const Colon = styled.div`
+  font-size: 50px;
+  margin: 0 6px;
 `;
